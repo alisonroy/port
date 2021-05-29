@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Moon Light";
+  src: url("Moon Light.otf") format("opentype");
+}
+#container {
+  font-family: "Moon Light" !important;
+}
+
+.logo {
+  width: 2em;
+  margin: 1px 2px;
+  padding: 3px 4px 2px 1px;
+}
+
+.navbar-custom {
+  background: linear-gradient(to bottom right, #260026, #fff);
+}
+.navbar-custom a {
+  color: #000;
+}
+
+.navbar-custom a:hover {
+  color: aliceblue;
+  background: #000;
+  border-radius: 20px;
+}
+
+.home {
+  min-height: 100vh;
+}
+.about {
+  color: #fff;
+  font-size: 36px;
+}
+.about a {
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  margin-left: 13px;
+  text-decoration: none;
+  background: #000;
+  border-radius: 10px;
+}
+
+.btn-custom:hover {
+  color: #000;
+  background: #fff;
+  transform: rotate(20deg);
+}
+
+.card-custom {
+  box-shadow: #260026;
+  width: 300px !important;
+}
+
+.card-img-top {
+  height: 250px;
+  padding: 15px;
+  width: auto !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin: 30px auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #99ff38;
+}
+
+#links {
+  font-size: 2rem;
+  color: #181818;
+}
+
+#links a {
+  color: #181818;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #482e6a;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.footer {
+  background-color: #181818;
+  color: #ff9978;
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 18px;
+    margin: 5px auto;
+  }
+  .about a {
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 4px;
+    text-decoration: none;
+    background: #000;
+    border-radius: 10px;
+  }
+}
